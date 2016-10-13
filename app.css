@@ -48,3 +48,7 @@ box-shadow: 0 1px 0 0 black;
    border-bottom: 1px solid red !important;
    box-shadow: 0 1px 0 0 red !important
  }*/
+
+.btn, .white-text {
+  cursor: url("http://cur.cursors-4u.net/mechanics/images1/mec11.gif"), pointer;
+}
