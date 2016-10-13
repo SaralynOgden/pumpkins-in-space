@@ -1,0 +1,10 @@
+body, html {
+  cursor: url("http://cur.cursors-4u.net/mechanics/images1/mec11.gif"), pointer;
+  height: 100%;
+}
+
+body:active, html:active {
+  cursor: url("http://cur.cursors-4u.net/food/images5/foo439.png"),
+  pointer;
+  height: 100%;
+}
