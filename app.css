@@ -1,6 +1,7 @@
 body, html {
   cursor: url("http://cur.cursors-4u.net/mechanics/images1/mec11.gif"), pointer;
   height: 100%;
+
 }
 
 body:active, html:active {
@@ -8,3 +9,39 @@ body:active, html:active {
   pointer;
   height: 100%;
 }
+body {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(http://photojournal.jpl.nasa.gov/jpeg/PIA18461.jpg);
+    position: relative;
+    display: flex;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    overflow: scroll;
+  }
+
+.textbox {
+  margin-top: 100px;
+}
+/*
+input[type=text]:focus{
+border-bottom: 1px solid black;
+box-shadow: 0 1px 0 0 black;
+}
+
+/* label focus color */
+ .input-field input:focus + label {
+   color: red !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid red !important;
+   box-shadow: 0 1px 0 0 red !important
+ }*/
